@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt="logo "></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="course.html">Course</a></li>
+                   <li><a href="#">Blog</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our certificate & Online Programs</h1>
+    </section>
+   
+    <!-- blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+            <img src="eduford_img/certificate.jpg" alt="">
+            <h2>Our certificate & Online Programs For 2022
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus vitae similique quasi veniam quidem, perferendis est, ab sed maiores esse cupiditate? Neque, ab? Amet maxime ut explicabo corporis aut facere.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse assumenda possimus repellendus? Consequatur, nesciunt cupiditate enim sed quaerat iusto iste deserunt assumenda esse corporis dolorem hic dolorum praesentium officiis impedit doloremque officia natus, perferendis obcaecati facilis. Distinctio ipsum dolor aliquam veniam, nobis reiciendis, ea libero nostrum consequatur sequi iusto voluptatibus.</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque tenetur aliquid modi in explicabo quasi magnam? Illum dolores facilis officiis optio voluptates cumque, dicta corporis eius quae repellat hic solutalorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, beatae vitae minus architecto numquam at tenetur doloribus accusantium ut tempora, quidem magnam iusto facilis quae, ex corporis dignissimos ullam. Debitis labore dolorem reprehenderit iusto accusamus recusandae tempora voluptatem dolorum vero modi deserunt quia iure delectus unde odit, quas assumenda officia maiores voluptatum quam error facilis ratione laboriosam. Repudiandae magni iste optio excepturi impedit ipsa sunt quos quas placeat architecto hic sapiente aliquam aperiam assumenda repellat, blanditiis qui odio vitae natus in. Porro beatae voluptatem maxime doloremque culpa assumenda sequi quos magni, voluptate accusantium, earum exercitationem at ipsa in tempore animi.</p>
+            
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT </button>
+
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illum consequatur deserunt sunt dicta suscipit.</p>
+    <div class="icon">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+        
+    </div>
+    <p>Reference: <a href="https://www.youtube.com/c/EasyTutorialsVideo">EasyTutorialsVideo</a></p>
+
+</section>
+<!--JavaScript toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
